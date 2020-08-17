@@ -183,17 +183,19 @@ main{
 }
 
 @media(max-width:600px){
+    section{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
     main{
+        width: 100%;
         flex-direction: column;
         padding-bottom: 30px;
     }
 
-    .landing_title{
-        font-size: 36px;
-    }
-
     .box-1{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -202,12 +204,12 @@ main{
     }
 
     .box-2{
-        width: 70%;
+        width: 90%;
         margin: 40px auto;
         border-radius: 10px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
-        height: 180px;
+        height: 350px;
     }
 
     .box-3{
